@@ -1,0 +1,35 @@
+module D_flip_flop(input logic clk, reset_b, d,
+			output logic q);
+	
+	always_ff @(posedge clk)
+	begin
+		if (reset_b) q <= 8'b0;
+		else q <= d;
+	end
+endmodule
+
+module cct1a (input logic Clock, reset, R, L, D, loadn, LoadL,
+	output logic Q);
+	
+	logic dat;
+	always_comb begin
+		case (loadn)
+			0: dat = D;
+			1: dat = (L&LoadL)|(R&~LoadL);
+		endcase
+	end
+	D_flip_flop dff(Clock, reset, dat, Q);
+endmodule
+
+module part1(input logic clock, reset, ParallelLoadn, RotateRight, ASRight,
+	input logic [3:0] Data_IN, output logic [3:0] Q);
+	
+	logic L3;
+	//Q[0] is the output of rot0, Q[1] is the output of rot1...
+	cct1a rot0(clock, reset, Q[3], Q[1], Data_IN[0], ParallelLoadn, RotateRight, Q[0]);
+	cct1a rot1(clock, reset, Q[0], Q[2], Data_IN[1], ParallelLoadn, RotateRight, Q[1]);
+	cct1a rot2(clock, reset, Q[1], Q[3], Data_IN[2], ParallelLoadn, RotateRight, Q[2]);
+	cct1a rot3(clock, reset, Q[2], L3, Data_IN[3], ParallelLoadn, RotateRight, Q[3]);
+	assign L3 = (Q[0]&~ASRight)|(Q[3]&ASRight); // when ASRight is high, keep the MSB
+endmodule
+

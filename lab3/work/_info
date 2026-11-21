@@ -1,0 +1,150 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rache/OneDrive/Documents/ECE253/lab3
+vALU
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1759282075
+!i10b 1
+!s100 i1[@bb;@ndSGPE1@]B<gY3
+IzF1SndV4lg_mzHZ_o<1RN0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 part3_sv_unit
+S1
+R0
+Z5 w1759246998
+Z6 8part3.sv
+Z7 Fpart3.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1759282075.000000
+Z10 !s107 part3.sv|
+Z11 !s90 -reportprogress|300|part3.sv|
+!i113 1
+Z12 tCvgOpt 0
+n@a@l@u
+vFA
+R1
+Z13 !s110 1759282689
+!i10b 1
+!s100 XlFIL;S@j<Zilh:;VShR]2
+IT`CkDigF3FoG6lLM<cBO80
+R3
+Z14 !s105 part1_sv_unit
+S1
+R0
+Z15 w1759248238
+Z16 8part1.sv
+Z17 Fpart1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+Z18 !s108 1759282689.000000
+Z19 !s107 part1.sv|
+Z20 !s90 -reportprogress|300|part1.sv|
+!i113 1
+R12
+n@f@a
+vpart1
+R1
+R13
+!i10b 1
+!s100 U2ci_b0WM3n]cJ^RMziOY1
+ITXK2Ol[>0=YS_IQCI6FZ02
+R3
+R14
+S1
+R0
+R15
+R16
+R17
+L0 6
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R12
+vpart2
+R1
+!s110 1759243100
+!i10b 1
+!s100 D2^EJMg^^;0db@meMo`]j0
+I8D^;OOZDHCQWI_Tf>08oa0
+R3
+!s105 part2_sv_unit
+S1
+R0
+w1759242125
+8part2.sv
+Fpart2.sv
+L0 14
+R8
+r1
+!s85 0
+31
+!s108 1759243100.000000
+!s107 part2.sv|
+!s90 -reportprogress|300|part2.sv|
+!i113 1
+R12
+vpart3
+R1
+R2
+!i10b 1
+!s100 ELW:N<=aO<<0;Ebiok3<O2
+IllPeUD?g]QOQKi]8?`H2F1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vregister
+R1
+R2
+!i10b 1
+!s100 ]RIdYMk?ek4BNoLWGB0zA3
+I0@`[[4U[1k^n2F_jP=5=O2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 18
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12

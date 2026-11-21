@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/rache/OneDrive/Documents/ECE253/lab5
+vcontrol_path
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1762024362
+!i10b 1
+!s100 iYhccl<2NQKjZTX?9QG[E3
+I`zDG3FFU9mM5n[fV:U>nl1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 part2_sv_unit
+S1
+R0
+Z5 w1762024357
+Z6 8part2.sv
+Z7 Fpart2.sv
+L0 3
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1762024362.000000
+Z10 !s107 part2.sv|
+Z11 !s90 -reportprogress|300|part2.sv|
+!i113 1
+Z12 tCvgOpt 0
+vdatapath
+R1
+R2
+!i10b 1
+!s100 oh^m]ViPDQX<z2@GfH5B]3
+IdEiV]chAlCTId3^TGAcjz2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 126
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vpart1
+R1
+!s110 1761019165
+!i10b 1
+!s100 >LDVfABAXQ@@=1bPdEBfI2
+I41RBUZZ:eBmAeK:kbDNL_1
+R3
+!s105 part1_sv_unit
+S1
+R0
+w1761015125
+8part1.sv
+Fpart1.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1761019165.000000
+!s107 part1.sv|
+!s90 -reportprogress|300|part1.sv|
+!i113 1
+R12
+vpart2
+R1
+R2
+!i10b 1
+!s100 h?XGl^`ZX0kFoYeS5oAmD1
+IHj^UNP9cd<D?z=Lb[^RkU1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 187
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
